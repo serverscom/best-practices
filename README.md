@@ -73,6 +73,7 @@ A note on the language:
 
 * Be humble (`I'm not sure`, `in my opinion`).
 * Ask questions, but be explicit and describe your point.
+* Try to review a complete PR within one day.
 * Try to respond to every comment.
 * Talk synchronously (e.g. chat, in person) if there are a lot of disputes, misunderstandings, etc. Post a follow-up comment summarizing the discussion.
 * Don't merge PR if it broke tests on CI.
