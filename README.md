@@ -64,7 +64,9 @@ A note on the language:
 
 ### Git
 
-* Use simple verbs to start a commit message (`Fix`, `Add`, `Refactor`).
+* Use task number in branch name (`feature/SCD-777_lucky_ticket`)
+* Use task number at the beginning of each commit message (`HER-666 Delete app directory`)
+* Use simple verbs in commit messages (`Fix`, `Add`, `Refactor`).
 * Use PR to merge your branch.
 * Prefer to delete remote branches after merging.
 * Don't use force push if you opened a PR with reviewers.
