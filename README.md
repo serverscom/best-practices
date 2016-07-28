@@ -4,7 +4,7 @@ Guides for getting things done, programming well, and programming in style.
 
 * [General](#general)
 * [Ruby](#ruby)
-* [ActiveRecord](#activerecord)
+* [Database](#database)
 * [Background Jobs](#background-jobs)
 * [Testing](#testing)
 * [Git](#git)
@@ -36,20 +36,22 @@ A note on the language:
 * Use [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) by default, except the guides below.
 * Use the `.ruby-version` file convention to specify the Ruby version for a project.
 * Use maximum 120 characters in a single line.
-* Use `Class.new(StandardError)` instead of inheritance to declare an error class.
+* Use `Class.new(StandardError)` instead of inheritance to declare a single-line error class.
 * Prefer to use acronyms as words in names (`XmlHttpRequest`, not `XMLHTTPRequest`).
 * Prefer to log exception with a trace (`logger.error("#{e.inspect}\n#{e.backtrace}")`).
 * Prefer `private` when indicating scope; use `protected` only with comparison methods like `==`.
 * Prefer `{}` for multiline blocks in RSpec `let`, `let!` and `ActiveRecord` validations, scopes.
 * Prefer to `freeze` all mutable constants.
-* Prefer to use keyword arguments if there are more than 1 argument.
+* Prefer to use `# frozen_string_literal: true` with Ruby >= 2.3.
+* Prefer to use keyword arguments if there are more than 2 arguments.
+* Prefer single-quoted strings when you don't need string interpolation or special symbols such as `\n`, `'`, etc.
+* Prefer to use the `.` on the second line when continuing a chained method invocation on another line.
 * Don't use spaces after `{` and before `}` for hash literals.
 * Don't use `Timeout`.
 
-### ActiveRecord
+### Database
 
-* Use association to validate `belongs_to` (`user`), not database column (`user_id`).
-* Don't use `ActiveRecord` models in migrations.
+* Don't use the code from application in migrations if it may be changed.
 
 ### Background Jobs
 
@@ -59,7 +61,7 @@ A note on the language:
 ### Testing
 
 * Use `not_to` instead of `to_not` in RSpec expectations.
-* Use `.method` to describe class methods and `#method` to describe instance methods.
+* Prefer to follow the [betterspecs.org](http://betterspecs.org/) rules.
 * Avoid using associations in `FactoryGirl`, use them in `trait`.
 * Don't test private methods.
 
@@ -69,7 +71,6 @@ A note on the language:
 * Use task number at the beginning of each commit message (`HER-666 Delete app directory`)
 * Use task number in branch name if you're using gitflow (`feature/SCD-777_lucky_ticket`)
 * Use PR to merge your branch.
-* Prefer to delete remote branches after merging.
 * Don't use force push if you opened a PR with reviewers.
 
 ### Code Review
@@ -80,7 +81,7 @@ A note on the language:
 * Try to respond to every reviewer's comment.
 * Talk synchronously (e.g. chat, in person) if there are a lot of disputes, misunderstandings, etc. Post a follow-up comment summarizing the discussion.
 * Don't merge PR if it broke tests on CI.
-* Don't merge PR without at least one approval.
+* Don't resolve task and don't merge PR without at least one approval.
 
 ## Contributing
 
