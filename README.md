@@ -24,6 +24,7 @@ A note on the language:
 * Prefer a single log message over multiple messages.
 * Prefer to order methods so that caller methods are earlier in the file than the methods they call.
 * Prefer to use [ChatOps](https://www.pagerduty.com/blog/what-is-chatops/) to automate processes.
+* Prefer to use [gitflow-avh](https://github.com/petervanderdoes/gitflow-avh) with our custom hooks while collaborating with the QA team.
 * Avoid object types in names (`user_array`, `email_method`, `CalculatorClass`, `ReportModule`).
 * Avoid monkey-patching; try to contribute to open source if you have to.
 * Avoid swallowing exceptions and failing silently.
@@ -64,7 +65,9 @@ A note on the language:
 
 ### Git
 
-* Use simple verbs to start a commit message (`Fix`, `Add`, `Refactor`).
+* Use simple verbs in commit messages (`Fix`, `Add`, `Refactor`).
+* Use task number at the beginning of each commit message (`HER-666 Delete app directory`)
+* Use task number in branch name if you're using gitflow (`feature/SCD-777_lucky_ticket`)
 * Use PR to merge your branch.
 * Prefer to delete remote branches after merging.
 * Don't use force push if you opened a PR with reviewers.
