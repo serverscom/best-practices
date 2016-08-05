@@ -30,6 +30,7 @@ A note on the language:
 * Avoid swallowing exceptions and failing silently.
 * Avoid having breaking changes in DB migrations, they should work with both versions of code.
 * Don't extract you code into a library if it used only in a single project and you are not going to publish it.
+* Use `perform` method in backgound job, use_case and command classes
 
 ### Ruby
 
