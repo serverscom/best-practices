@@ -68,8 +68,9 @@ A note on the language:
 ### Git
 
 * Use simple verbs in commit messages (`Fix`, `Add`, `Refactor`).
-* Use task number at the beginning of each commit message (`HER-666 Delete app directory`)
-* Use task number in branch name if you're using gitflow (`feature/SCD-777_lucky_ticket`)
+* Use task number at the beginning of each commit message (`HER-666 Delete app directory`).
+* Use task number in branch name if you're using gitflow (`feature/SCD-777_lucky_ticket`).
+* Use English characters, digits, `-` and `_` in branch names.
 * Use PR to merge your branch.
 * Don't use force push if you opened a PR with reviewers.
 
