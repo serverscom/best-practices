@@ -75,6 +75,9 @@ A note on the language:
 * <a name="ruby-error-class"></a>
   Use `Class.new(StandardError)` instead of inheritance to declare a single-line error class.
   <sup>[[link](#ruby-error-class)]</sup>
+* <a name="ruby-di"></a>
+  Prefer to use Dependency Injection pattern instead of specifying a hardcoded behavior for the environment.
+  <sup>[[link](#ruby-di)]</sup>
 * <a name="ruby-acronyms"></a>
   Prefer to use acronyms as words in names (`XmlHttpRequest`, not `XMLHTTPRequest`).
   <sup>[[link](#ruby-acronyms)]</sup>
@@ -108,6 +111,9 @@ A note on the language:
 * <a name="ruby-timeout"></a>
   Don't use `Timeout`.
   <sup>[[link](#ruby-timeout)]</sup>
+* <a name="ruby-constant-reassignment"></a>
+  Don't use reassignment of constant
+  <sup>[[link](#ruby-constant-reassignment)]</sup>
 
 ### Database
 
