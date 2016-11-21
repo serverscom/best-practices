@@ -64,6 +64,7 @@ A note on the language:
 
 * Use `not_to` instead of `to_not` in RSpec expectations.
 * Prefer to follow the [betterspecs.org](http://betterspecs.org/) rules.
+* Prefer to use `instance_double` instead of `double` with RSpec.
 * Avoid using associations in `FactoryGirl`, use them in `trait`.
 * Don't test private methods.
 
