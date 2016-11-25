@@ -138,8 +138,11 @@ A note on the language:
 * <a name="testing-instance-double"></a>
   Prefer to use `instance_double` instead of `double` with RSpec.
   <sup>[[link](#testing-instance-double)]</sup>
+* <a name="testing-build-stubbed"></a>
+  Prefer to use FactoryGirl `build_stubbed` instead of `build` to avoid creating associations.
+  <sup>[[link](#testing-build-stubbed)]</sup>
 * <a name="testing-factory-assoc"></a>
-  Avoid using associations in `FactoryGirl`, use them in `trait`.
+  Avoid using associations in FactoryGirl, use them in `trait`.
   <sup>[[link](#testing-factory-assoc)]</sup>
 * <a name="testing-private-methods"></a>
   Don't test private methods.
