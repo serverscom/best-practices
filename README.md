@@ -75,6 +75,9 @@ A note on the language:
 * <a name="ruby-error-class"></a>
   Use `Class.new(StandardError)` instead of inheritance to declare a single-line error class.
   <sup>[[link](#ruby-error-class)]</sup>
+* <a name="ruby-const-path"></a>
+  Use full path for constant resolution. [Example](./examples/ruby-const-path.rb).
+  <sup>[[link](#ruby-const-path)]</sup>
 * <a name="ruby-di"></a>
   Prefer to use Dependency Injection pattern instead of specifying a hardcoded behavior for the environment.
   <sup>[[link](#ruby-di)]</sup>
