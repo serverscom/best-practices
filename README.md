@@ -105,6 +105,9 @@ A note on the language:
 * <a name="ruby-method-chaining"></a>
   Prefer to use the `.` on the second line when continuing a chained method invocation on another line.
   <sup>[[link](#ruby-method-chaining)]</sup>
+* <a name="ruby-ar-inner-join"></a>
+  Prefer to use `joins(:relation)` for `ActiveRecord` models instead of writing SQL queries manually.
+  <sup>[[link](#ruby-ar-inner-join)]</sup>
 * <a name="ruby-hash-spaces"></a>
   Don't use spaces after `{` and before `}` for hash literals.
   <sup>[[link](#ruby-hash-spaces)]</sup>
