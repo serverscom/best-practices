@@ -60,6 +60,9 @@ A note on the language:
 * <a name="general-perform-method"></a>
   Use `perform` method name in backgound job, use_case and command classes
   <sup>[[link](#general-perform-method)]</sup>
+* <a name="general-dumb-excuse"></a>
+  Slow code can not be justified by the lack of high loads
+  <sup>[[link](#general-dumb-excuse)]</sup>
 
 ### Ruby
 
