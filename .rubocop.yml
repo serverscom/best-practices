@@ -18,7 +18,7 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
 
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
 Style/SpecialGlobalVars:
