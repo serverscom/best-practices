@@ -35,3 +35,9 @@ Style/PercentLiteralDelimiters:
     '%w': '[]'
     '%W': '[]'
     '%x': '{}'
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/PreferredHashMethods:
+  EnforcedStyle: verbose
