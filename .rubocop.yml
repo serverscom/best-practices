@@ -1,5 +1,6 @@
 AllCops:
   TargetRubyVersion: 2.3
+  DisplayCopNames: true
   Include:
     - '**/config.ru'
     - '**/Gemfile'
@@ -17,6 +18,7 @@ Metrics/LineLength:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+    - '**/*.gemspec'
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
