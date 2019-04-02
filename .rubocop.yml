@@ -75,3 +75,5 @@ Layout/DotPosition:
   EnforcedStyle: leading
 Layout/MultilineMethodCallIndentation:
   Enabled: false
+Lint/AssignmentInCondition:
+  AllowSafeAssignment: false  
