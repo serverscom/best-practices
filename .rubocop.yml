@@ -76,5 +76,5 @@ Layout/DotPosition:
 Layout/MultilineMethodCallIndentation:
   Enabled: false
 
-Lint/UriEscapeUnescape
+Lint/UriEscapeUnescape:
   Enabled: false
