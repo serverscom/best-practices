@@ -56,7 +56,7 @@ Layout/FirstMethodArgumentLineBreak:
   Enabled: true
 Layout/FirstMethodParameterLineBreak:
   Enabled: true
-Layout/FirstParameterIndentation:
+Layout/IndentFirstArgument:
   Enabled: true
 Layout/MultilineArrayBraceLayout:
   Enabled: true
