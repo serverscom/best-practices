@@ -201,6 +201,9 @@ A note on the language:
 * <a name="review-approve"></a>
   Don't resolve task and don't merge PR without at least one approval.
   <sup>[[link](#review-approve)]</sup>
+* <a name="review-changes"></a>
+  Avoid changes irrelevant to the task. Open separate PR for refactoring changes.
+  <sup>[[link](#review-changes)]</sup>
 
 ## Contributing
 
