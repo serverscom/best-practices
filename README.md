@@ -108,6 +108,9 @@ A note on the language:
 * <a name="ruby-ar-inner-join"></a>
   Prefer to use `joins(:relation)` for `ActiveRecord` models instead of writing SQL queries manually.
   <sup>[[link](#ruby-ar-inner-join)]</sup>
+* <a name="ruby-ar-assoc"></a>
+  Don't create an association inside `ActiveRecord` model, if you are not going to use it right now.
+  <sup>[[link](#ruby-ar-assoc)]</sup>
 * <a name="ruby-hash-spaces"></a>
   Don't use spaces after `{` and before `}` for hash literals.
   <sup>[[link](#ruby-hash-spaces)]</sup>
@@ -156,6 +159,9 @@ A note on the language:
 * <a name="testing-private-methods"></a>
   Don't test private methods.
   <sup>[[link](#testing-private-methods)]</sup>
+* <a name="testing-rspec-subject"></a>
+  Don't use `subject` in RSpec.
+  <sup>[[link](#testing-rspec-subject)]</sup>
 
 ### Git
 
