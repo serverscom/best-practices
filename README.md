@@ -159,9 +159,6 @@ A note on the language:
 * <a name="testing-private-methods"></a>
   Don't test private methods.
   <sup>[[link](#testing-private-methods)]</sup>
-* <a name="testing-rspec-subject"></a>
-  Don't use `subject` in RSpec.
-  <sup>[[link](#testing-rspec-subject)]</sup>
 
 ### Git
 
