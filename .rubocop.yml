@@ -9,7 +9,7 @@ AllCops:
     - 'bin/**/*'
     - 'vendor/**/*'
 
-Documentation:
+Style/Documentation:
   Enabled: false
 
 Metrics/LineLength:
