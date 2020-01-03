@@ -12,14 +12,14 @@ AllCops:
 Style/Documentation:
   Enabled: false
 
-Metrics/LineLength:
-  Max: 120
-
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
     - '**/*.gemspec'
     - '**/*.rake'
+
+Layout/LineLength:
+  Max: 120
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
@@ -47,7 +47,9 @@ Style/AsciiComments:
 
 Performance/Casecmp:
   Enabled: false
-  
+
+Layout/FirstArgumentIndentation:
+  Enabled: true
 Layout/FirstArrayElementLineBreak:
   Enabled: true
 Layout/FirstHashElementLineBreak:
@@ -55,8 +57,6 @@ Layout/FirstHashElementLineBreak:
 Layout/FirstMethodArgumentLineBreak:
   Enabled: true
 Layout/FirstMethodParameterLineBreak:
-  Enabled: true
-Layout/IndentFirstArgument:
   Enabled: true
 Layout/MultilineArrayBraceLayout:
   Enabled: true
