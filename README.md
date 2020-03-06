@@ -169,7 +169,7 @@ A note on the language:
   Prefer `instance_double(SomeClass)` over `double(method: return_value)`.
   <sup>[[link](#mocking-instance-double)]</sup>
 * <a name="mocking-verify-partial-doubles"></a>
-  Enable `verify_partial_doubles`.
+  Enable `verify_partial_doubles` and `verify_doubled_constant_names`.
   <sup>[[link](#mocking-verify-partial-doubles)]</sup>
 * <a name="mocking-any-instance-of"></a>
   Prefer mocking `SomeClass.new` over `any_instance_of(SomeClass)`.
