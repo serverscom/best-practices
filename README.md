@@ -160,6 +160,21 @@ A note on the language:
   Don't test private methods.
   <sup>[[link](#testing-private-methods)]</sup>
 
+### Mocks
+
+* <a name="first-rule-or-mocking-club"></a>
+  Avoid using mocks at all when feasible.
+  <sup>[[link](#first-rule-or-mocking-club)]</sup>
+* <a name="mocking-instance-double"></a>
+  Prefer `instance_double(SomeClass)` over `double(method: return_value)`.
+  <sup>[[link](#mocking-instance-double)]</sup>
+* <a name="mocking-verify-partial-doubles"></a>
+  Enable `verify_partial_doubles` and `verify_doubled_constant_names`.
+  <sup>[[link](#mocking-verify-partial-doubles)]</sup>
+* <a name="mocking-any-instance-of"></a>
+  Prefer mocking `SomeClass.new` over `any_instance_of(SomeClass)`.
+  <sup>[[link](#mocking-any-instance-of)]</sup>
+
 ### Git
 
 * <a name="git-message-verbs"></a>
