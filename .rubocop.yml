@@ -44,6 +44,9 @@ Style/NumericLiterals:
 
 Style/AsciiComments:
   Enabled: false
+  
+Style/SignalException:
+  EnforcedStyle: only_raise
 
 Performance/Casecmp:
   Enabled: false
