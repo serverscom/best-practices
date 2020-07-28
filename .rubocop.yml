@@ -51,9 +51,6 @@ Style/SignalException:
 Performance/Casecmp:
   Enabled: false
 
-Layout/FirstArrayElementIndentation:
-  Enabled: true
-  EnforcedStyle: consistent
 Layout/FirstArrayElementLineBreak:
   Enabled: true
 Layout/FirstArrayElementIndentation:
