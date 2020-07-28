@@ -69,7 +69,7 @@ Layout/FirstArgumentIndentation:
   Enabled: true
 Layout/MultilineArrayBraceLayout:
   Enabled: true
-  EnforcedStyle: symmetrical
+  EnforcedStyle: new_line
 Layout/MultilineHashBraceLayout:
   Enabled: true
   EnforcedStyle: new_line
