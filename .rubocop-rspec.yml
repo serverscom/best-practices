@@ -1,0 +1,14 @@
+RSpec/NotToNot:
+  Enabled: true
+  EnforcedStyle: not_to
+RSpec/BeforeAfterAll:
+  Enabled: true
+RSpec/RepeatedDescription:
+  Enabled: true
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+RSpec/ImplicitSubject:
+  Enabled: true
+  EnforcedStyle: single_line_only

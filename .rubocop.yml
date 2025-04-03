@@ -9,24 +9,104 @@ AllCops:
     - '**/bin/**/*'
     - '**/vendor/**/*'
 
-Style/Documentation:
+Metrics/ClassLength:
   Enabled: false
-
 Metrics/BlockLength:
   Exclude:
     - '**/spec/**/*_spec.rb'
     - '**/*.gemspec'
     - '**/*.rake'
 
-Layout/LineLength:
-  Max: 120
+Naming/MethodParameterName:
+  AllowedNames: [as, cc, db, fn, id, ip, os, to]
+Naming/InclusiveLanguage:
+  Enabled: false
+Naming/BlockForwarding:
+  Enabled: true
+  EnforcedStyle: explicit
+Naming/PredicateName:
+  Enabled: false
+Naming/RescuedExceptionsVariableName:
+  Enabled: true
+Naming/AccessorMethodName:
+  Enabled: false
+Naming/FileName:
+  Enabled: false
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
 
-Layout/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-
+Style/Documentation:
+  Enabled: false
+Style/GuardClause:
+  Enabled: true
+Style/RedundantBegin:
+  Enabled: true
+Style/AccessorGrouping:
+  Enabled: false
+Style/ArrayCoercion:
+  Enabled: false
+Style/BisectedAttrAccessor:
+  Enabled: false
+Style/CaseLikeIf:
+  Enabled: false
+Style/ExponentialNotation:
+  Enabled: false
+Style/HashAsLastArrayItem:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashLikeCase:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+Style/RedundantAssignment:
+  Enabled: false
+Style/RedundantFetchBlock:
+  Enabled: false
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+Style/RedundantRegexpEscape:
+  Enabled: false
+Style/SlicingWithRange:
+  Enabled: false
+Style/RedundantConstantBase:
+  Enabled: false
+Style/BlockDelimiters:
+  Enabled: true
+  EnforcedStyle: braces_for_chaining
+Style/ClassAndModuleChildren:
+  Enabled: true
+  EnforcedStyle: nested
+Style/Alias:
+  Enabled: true
+  EnforcedStyle: prefer_alias
+Style/CollectionCompact:
+  Enabled: true
+Style/CombinableLoops:
+  Enabled: true
+Style/DoubleNegation:
+  Enabled: true
+  EnforcedStyle: forbidden
+Style/EachWithObject:
+  Enabled: true
+Style/ArgumentsForwarding:
+  Enabled: false
+Style/ArrayIntersect:
+  Enabled: true
+Style/RedundantReturn:
+  Enabled: true
+Style/YAMLFileRead:
+  Enabled: true
+Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: true
+Style/RedundantArrayConstructor:
+  Enabled: true
 Style/SpecialGlobalVars:
   EnforcedStyle: use_english_names
-
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     '%i': '[]'
@@ -38,19 +118,32 @@ Style/PercentLiteralDelimiters:
     '%w': '[]'
     '%W': '[]'
     '%x': '{}'
-
 Style/NumericLiterals:
   Enabled: false
-
 Style/AsciiComments:
   Enabled: false
-  
 Style/SignalException:
   EnforcedStyle: only_raise
-  
-Performance/Casecmp:
-  Enabled: false
 
+Layout/LineLength:
+  Max: 120
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
+Layout/LeadingCommentSpace:
+  Enabled: true
+Layout/ExtraSpacing:
+  Enabled: true
+Layout/SpaceBeforeFirstArg:
+  Enabled: true
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: true
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
 Layout/FirstArrayElementLineBreak:
   Enabled: true
 Layout/FirstArrayElementIndentation:
@@ -90,10 +183,10 @@ Layout/EmptyLineBetweenDefs:
   Enabled: true
 Layout/EmptyLinesAroundAccessModifier:
   Enabled: true
+
 Lint/AmbiguousBlockAssociation:
   Enabled: true
 Lint/AssignmentInCondition:
   AllowSafeAssignment: false
-
 Lint/UriEscapeUnescape:
   Enabled: false
